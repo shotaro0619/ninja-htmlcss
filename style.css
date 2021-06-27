@@ -1,0 +1,103 @@
+/* p {
+  display: inline;
+  border-bottom: 2px dotted #0e6edf;
+  padding-bottom: 8px;
+} */
+
+/* textarea::placeholder,
+input::placeholder {
+  color: red;
+} */
+
+/* div {
+  background-color: rgb(25, 23, 173);
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+p {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}  */
+
+/* .before-cat::before {
+  content: "▼";
+  padding-right: 4px;
+}
+h3::before,
+h3::after {
+  display: inline-block;
+  content: "";
+  vertical-align: 5px;
+  width: 40px;
+  height: 2px;
+  background-color: #000;
+}
+h3::before {
+  margin-right: 8px;
+}
+h3::after {
+  margin-left: 8px;
+} */
+
+/* dt {
+  float: left;
+}
+
+dd{
+  width: 400px;
+  margin: 0 0 16px 100px;
+  border-bottom: 1px dotted;
+}
+
+ul,li {
+  list-style: none;
+  padding: 0;
+}
+li::before {
+  content: "◆";
+} */
+
+/* .text-wrap {
+  width: 300px;
+  border: 1px solid;
+  padding: 12px;
+}
+
+.text-wrap p {
+  text-indent: -1em;
+  padding-left: 1em;
+  word-break: break-all;
+}
+.text-wrap > p:first-child {
+  margin-bottom: 24px;
+} */
+/* input[name="sample"] {
+  font-weight: bold;
+}
+
+input[name="sample"]::placeholder {
+  font-weight: normal;
+} */
+
+.text-wrap {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  border: 1px solid;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+span {
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  height: 1px;
+  display: inline-block;
+  background: #0e6edf;
+}
