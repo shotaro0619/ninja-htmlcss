@@ -84,7 +84,7 @@ input[name="sample"]::placeholder {
   font-weight: normal;
 } */
 
-.text-wrap {
+/* .text-wrap {
   position: relative;
   width: 400px;
   height: 60px;
@@ -100,4 +100,155 @@ span {
   height: 1px;
   display: inline-block;
   background: #0e6edf;
+} */
+
+/* 
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+.column{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 24px;
+}
+.column--two .column__cat {
+  width: calc(50% - 8px);
+}
+.column--three .column__cat {
+  width: calc((100% / 3) - 8px);
+}
+.column__cat {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  background: red;
+  box-shadow: 10px 10px 15px -10px;
+}
+.column .column__cat {
+  margin-right: 8px;
+}
+.column .column__cat:last-child {
+  margin: 0;
+} */
+
+/* .column__cat {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  background-color: red;
+  border-radius: 50% 50% 50% 50%
+} */
+
+/* .box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.maru1 {
+ height: 148px;
+ width: 148px;
+ border: 1px solid;
+ background-color: red;
+ border-radius: 50% 50% 0 50%
+}
+
+.maru2 {
+  height: 148px;
+  width: 148px;
+  border: 1px solid;
+  background-color:blue;
+  border-radius: 50% 50% 50% 0;
+ }
+
+ .maru3 {
+  height: 148px;
+  width: 148px;
+  border: 1px solid;
+  background-color: yellow;
+  border-radius: 50% 0 50% 50%;
+ }
+
+ .maru4 {
+  height: 148px;
+  width: 148px;
+  border: 1px solid;
+  background-color: green;
+  border-radius: 0 50% 50% 50%;
+ }
+
+ .maru5 {
+  position: absolute;
+  height: 148px;
+  width: 148px;
+  border: 1px solid;
+  background-color: purple;
+  border-radius: 50% 50% 50% 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ } */
+
+ .card {
+  border: 1px solid;
+}
+.card__title {
+  font-weight: bold;
+  padding: 8px;
+}
+.card__text {
+  padding: 10px;
+}
+.card__img {
+  width: 100%;
+  height: 100px;
+  background-color: #0e6edf;
+}
+
+ul,li {
+  list-style: none;
+}
+
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid;
+  margin-right: 8px;
+  margin-bottom: 16px;
+  width: calc((100% / 3) - 8px);
+}
+
+.card.dammy {
+  border: none;
+}
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+.card__title {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px;
+}
+.card__text {
+  padding: 8px;
+  font-size: 12px;
+}
+.card__img {
+  width: 100%;
+  height: 100px;
+  background-color: #0e6edf;
 }
