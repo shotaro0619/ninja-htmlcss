@@ -199,7 +199,7 @@ span {
   transform: translate(-50%, -50%);
  } */
 
- .card {
+ /* .card {
   border: 1px solid;
 }
 .card__title {
@@ -251,4 +251,19 @@ ul,li {
   width: 100%;
   height: 100px;
   background-color: #0e6edf;
+} */
+
+.img-area {
+  background-color: #000;
+  display: inline-block;
+}
+.img-area img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  transition: 5s;
+}
+
+.img-area > img:hover {
+  width: 100%;
 }
