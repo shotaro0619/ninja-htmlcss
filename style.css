@@ -286,6 +286,6 @@ span::after {
   height: 12px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 4px;
+  margin-left: 40px;
   vertical-align: -1px;
 }
